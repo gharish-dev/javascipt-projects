@@ -1,7 +1,7 @@
 const curs=document.querySelector("cursor");
 var timeout;
 
-// cuesor movement
+// cuesor movem
 document.addEventListener("mousemove",(e)=>{
     let x=e.pageX;
     let y=e.pageY;
@@ -11,7 +11,7 @@ document.addEventListener("mousemove",(e)=>{
     cursor.style.left=x+"px";
     cursor.style.display="block";
 
-  //
+  //huh;iug;
   function mouseStopped(){
     cursor.style.display="none"
   }
